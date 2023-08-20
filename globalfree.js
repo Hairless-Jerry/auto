@@ -142,7 +142,7 @@ const checkInAndGetStatus = async (cookie) => {
 const pushplus = (token, infos) => {
     const data = {
         token,
-        title: 'GLaDOS签到',
+        title: 'GLaDOS基础版签到',
         content: JSON.stringify(infos),
         template: 'json'
     };
